@@ -1,0 +1,170 @@
+/* body {
+    /* background-color: white; */
+/* } */ 
+
+/* .maindiv {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.maindiv {
+    display: inline-flex;
+    
+}
+.residentialproperties {
+    border-color: black;
+    border-radius: 10px;
+}
+.residentialproperties img{
+    width: 40%;
+    height: 80%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+
+} */
+
+/* .commercialproperties img {
+    width: 40%;
+    height: 80%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+}
+
+.landproperties img {
+    width: 40%;
+    height: 80%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+} */
+
+body {
+    background-image: url(icons/propertiesPage.jpg);
+    background-size: cover;
+    width: fit-content;
+}
+.navMain {
+    width: 95%;
+    /* margin-right: 5%; */
+    height: 15%;
+    display: inline-flex;
+}
+.navMain img{
+    float: left;
+    width: 150px;
+    height:150px;
+}
+
+
+.navMain ul {
+    margin-top: 20px;
+    margin-right: 30px;
+    line-height: normal;
+    text-align: right;
+    width: 100%;
+}
+.navMain ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+}
+
+
+.navMain ul li a {
+    /* float: right; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+.navMain ul li a:hover {
+    color: rgb(204, 255, 20);
+  }
+#residential_header,#commercial_header,#land_header{
+    display: none;
+}
+#residential_icon,#commercial_icon,#land_icon {
+    display: none;
+}
+#residential_iconP,#commercial_iconP,#land_iconP {
+    display: none;
+}
+
+.residential {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.commercial {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.land {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#typesofproperties {
+    padding-top: 150px;
+    padding-left: 210px;
+    /* padding-right: 60px; */
+    justify-content: space-between;
+}
+#residential_icon {
+    width: 70%;
+    height: 70%;
+}
+
+#commercial_icon {
+    width: 70%;
+    height: 70%;
+}
+#land_icon {
+    width: 70%;
+    height: 70%;
+}
+#residentialproperties h2 {
+    /* text-decoration: underline; */
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bolder; */
+    letter-spacing: 6px;
+}
+#commercialproperties h2 {
+    /* text-decoration: underline; */
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bolder; */
+    letter-spacing: 6px;
+}
+#landproperties h2 {
+    /* text-decoration: underline; */
+    color: whitesmoke;
+    letter-spacing: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.residential p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+}
+.commercial p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+}
+.land p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+}
